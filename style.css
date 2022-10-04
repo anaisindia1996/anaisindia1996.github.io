@@ -79,7 +79,10 @@ p{
 }
 
 .radio-button {
-
+  margin-top: 19px;
+  color: #1E1F22;
+  font: normal normal medium 13px/28px Work Sans;
+  letter-spacing: 0px;
 }
 #link {
   text-decoration: underline;
@@ -98,4 +101,9 @@ input[type=submit] {
   color: white;
   font: normal normal 600 16px/28px Work Sans;
   margin-top: 32px;
+}
+
+input[type=submit]:hover {
+  background-color: #D10761;
+  transition: 0.05s;
 }
