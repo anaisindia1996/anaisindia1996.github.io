@@ -66,19 +66,20 @@ p{
 }
 
 .offer {
-  z-index: -1;
+  z-index: 1;
   background-color: #FFDD4D;
   color: black;
-  top: 173px;
+  top: 153px;
   left: 701px;
   width: 145px;
   height: 46px;
+  line-height: 46px;
   text-align: center;
   letter-spacing: 0.56px;
-  justify-content: center;
+  position: absolute;
 }
 
-.radio-button {
+.checkbox-button {
   margin-top: 19px;
   color: #1E1F22;
   font: normal normal medium 13px/28px Work Sans;
