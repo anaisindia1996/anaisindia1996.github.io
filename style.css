@@ -78,6 +78,24 @@ p{
   justify-content: center;
 }
 
+.radio-button {
+
+}
 #link {
   text-decoration: underline;
+}
+
+input[type=submit] {
+  top: 524px;
+  left: 742px;
+  width: 348px;
+  height: 54px;
+  padding: 12px;
+  background-color: #FD0272;
+  border:0 none;
+  cursor: pointer;
+  border-radius: 12px;
+  color: white;
+  font: normal normal 600 16px/28px Work Sans;
+  margin-top: 32px;
 }
