@@ -108,3 +108,47 @@ input[type=submit]:hover {
   background-color: #D10761;
   transition: 0.05s;
 }
+
+input[type=text].prompt {
+  opacity: 0.5;
+  top: 345px;
+  left: 759px;
+  width: 114px;
+  height: 16px;
+  color: #1E1F22;
+  text-align: left;
+  font: normal normal normal 14px/28px Work Sans;
+  letter-spacing: 0px;
+  border: 2px solid #ECEDF2;
+  border-radius: 12px;
+  top: 331px;
+  left: 742px;
+  width: 348px;
+  height: 44px;
+  padding-left: 17px;
+  margin-top:6px;
+}
+
+input[type=email].prompt {
+  opacity: 0.5;
+  top: 345px;
+  left: 759px;
+  width: 114px;
+  height: 16px;
+  color: #1E1F22;
+  text-align: left;
+  font: normal normal normal 14px/28px Work Sans;
+  letter-spacing: 0px;
+  border: 2px solid #ECEDF2;
+  border-radius: 12px;
+  top: 331px;
+  left: 742px;
+  width: 348px;
+  height: 44px;
+  padding-left: 17px;
+  margin-top:6px;
+}
+
+input[type=checkbox]::after {
+  color: red;
+}
