@@ -1,7 +1,6 @@
 .main-container {
   padding: 160px;
   display: flex;
-  /* border: 2px solid green; */
 }
 
 #logo {
@@ -149,6 +148,14 @@ input[type=email].prompt {
   margin-top:6px;
 }
 
-input[type=checkbox]::after {
-  color: red;
+label[for=email] {
+  top: 310px;
+  left: 742px;
+  width: 335px;
+  height: 15px;
+  text-align: left;
+  font: 'Work Sans', sans-serif;
+  letter-spacing: 0px;
+  color: #1E1F22;
+  margin-top: 5px;
 }
